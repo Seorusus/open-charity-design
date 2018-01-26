@@ -6,7 +6,8 @@ version = VERSION
 core = 7.x
 
 ;-- Required Regions--
-regions[header] = Header
+regions[navigation] = Navigation
+regions[content] = Content
 
 ;-------------- C S S -------------
 stylesheets[all][] = style.css

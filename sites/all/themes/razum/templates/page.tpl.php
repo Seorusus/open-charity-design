@@ -1,11 +1,56 @@
-<div id="page-wrapper" class="page-wrapper">
-  <div class="region-header">
-    <div id="logotype">
-      <?php if (!empty($logo)): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
+<?php
+/**
+ * @file
+ * Needs to be documented.
+ */
+
+?>
+<div class="body-inner">
+  <div class="header-wrapper">
+    <header>
+      <div class="container">
+        <?php if ($logo): ?>
+<!-- Region Logo -->
+        <div class="logo">
+            <a href="<?php echo url('<front>'); ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            </a>
+        </div>
+        <?php endif; ?>
+      </div>
+    </header>
+    <?php if (!empty($page['navigation'])): ?>
+    <nav id="navigation">
+      <div class="container">
+<!-- Region Navigation -->
+      <?php print render($page['navigation']); ?>
+      </div>
+    </nav>
+    <?php endif; ?>
+  </div>
+  <div id="main">
+    <div class="container">
+<!-- Region Content -->
+      <?php if (theme_get_setting('razum_toggle_message') && $messages): ?>
+<!-- messages -->
+        <div id="messages" class="clear clearfix"><?php print $messages; ?></div>
       <?php endif; ?>
-    </div>
+
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <div class="h1-title"><h1><?php print $title; ?></h1></div>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+
+      <?php if (theme_get_setting('razum_toggle_tabs') && $tabs = render($tabs)): ?>
+        <div class="tabs"><?php print $tabs; ?></div>
+      <?php endif; ?>
+
+      <?php if (theme_get_setting('razum_toggle_actions') && $action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+
+      <?php echo render($page['content']); ?>
+</div>
   </div>
 </div>
