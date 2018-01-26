@@ -10,29 +10,37 @@
     <header>
       <div class="container">
         <?php if ($logo): ?>
-          <!-- Region Logo -->
-          <div class="logo">
+<!-- Region Logo -->
+        <div class="logo">
             <a href="<?php echo url('<front>'); ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
-          </div>
+        </div>
         <?php endif; ?>
       </div>
     </header>
     <?php if (!empty($page['navigation'])): ?>
-      <nav id="navigation">
-        <div class="container">
-          <!-- Region Navigation -->
-          <?php print render($page['navigation']); ?>
-        </div>
-      </nav>
+    <nav id="navigation">
+      <div class="container">
+<!-- Region Navigation -->
+      <?php print render($page['navigation']); ?>
+      </div>
+    </nav>
     <?php endif; ?>
   </div>
   <div id="main">
     <div class="container">
-      <!-- Region Content -->
+<!-- Region Intro banner -->
+      <div class="intro-banner">
+        <?php echo render($page['intro_banner']); ?>
+      </div>
+<!-- Region Involved -->
+      <div class="involved">
+        <?php echo render($page['involved']); ?>
+      </div>
+<!-- Region Content -->
       <?php if ($messages): ?>
-        <!-- messages -->
+<!-- messages -->
         <div id="messages" class="clear clearfix"><?php print $messages; ?></div>
       <?php endif; ?>
 
@@ -51,13 +59,17 @@
       <?php endif; ?>
 
       <?php echo render($page['content']); ?>
+<!-- Region Members -->
+      <div class="members">
+        <?php echo render($page['members']); ?>
+      </div>
     </div>
   </div>
   <div class="footer-wrapper">
     <footer id="footer">
       <div class="container">
         <?php if (!empty($page['footer'])) : ?>
-          <!-- Region Footer -->
+<!-- Region Footer -->
           <div class="row">
             <?php echo render($page['footer']); ?>
           </div>

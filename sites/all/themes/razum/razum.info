@@ -7,10 +7,13 @@ core = 7.x
 
 ;-- Required Regions--
 regions[navigation] = Navigation
+regions[intro_banner] = Intro banner
+regions[involved] = Involved
 regions[content] = Content
+regions[members] = Members
 regions[footer] = Footer
 
-;-------------- C S S -------------
+;-- C S S --
 stylesheets[all][] = style.css
 
-;-------------- JS -------------
+;-- JS --
