@@ -3,4 +3,10 @@ description = Theme for Open Charity Design
 package = Core
 version = VERSION
 core = 7.x
+
+;-- Required Regions--
+
+;-------------- C S S -------------
 stylesheets[all][] = style.css
+
+;-------------- JS -------------
