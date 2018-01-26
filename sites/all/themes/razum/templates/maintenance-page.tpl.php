@@ -18,7 +18,7 @@
 <body class="<?php print $classes; ?>">
   <div id="page">
 <div id="logotype">
-          <img src="/sites/all/themes/idevtheme/logo.png" alt="Home" title="Home" width="75" height="82">
+          <img src="/sites/all/themes/razum/images/logo.png" alt="Home" title="Home" width="100" height="60">
 </div>
     <div id="header" class="container">
       <?php if (!empty($header)): ?>
@@ -31,14 +31,6 @@
 
     <div class="container">
 
-      <?php if (!empty($sidebar_first)): ?>
-        <div id="sidebar-first" class="column sidebar">
-          <?php print $sidebar_first; ?>
-        </div> <!-- /sidebar-first -->
-      <?php endif; ?>
-
-      <div id="main" class="column">
-        <div id="main-squeeze">
 
         <div id="content">
           <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
@@ -48,13 +40,6 @@
           </div> <!-- /content-content -->
         </div> <!-- /content -->
 
-      </div></div> <!-- /main-squeeze /main -->
-
-      <?php if (!empty($sidebar_second)): ?>
-        <div id="sidebar-second" class="column sidebar">
-          <?php print $sidebar_second; ?>
-        </div> <!-- /sidebar-second -->
-      <?php endif; ?>
 
     </div> <!-- /container -->
 

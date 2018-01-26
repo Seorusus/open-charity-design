@@ -51,6 +51,18 @@
       <?php endif; ?>
 
       <?php echo render($page['content']); ?>
-</div>
+    </div>
+  </div>
+  <div class="footer-wrapper">
+    <footer id="footer">
+      <div class="container">
+        <?php if (!empty($page['footer'])) : ?>
+<!-- Region Footer -->
+          <div class="row">
+            <?php echo render($page['footer']); ?>
+          </div>
+        <?php endif; ?>
+      </div>
+    </footer>
   </div>
 </div>
