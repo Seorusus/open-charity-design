@@ -1,5 +1,6 @@
 name = Razum
 description = Theme for Open Charity Design
+screenshot = screenshot.png
 package = Core
 version = VERSION
 core = 7.x
