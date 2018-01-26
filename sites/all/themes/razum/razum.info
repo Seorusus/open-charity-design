@@ -1,0 +1,6 @@
+name = Razum
+description = Theme for Open Charity Design
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
