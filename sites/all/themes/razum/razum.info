@@ -11,7 +11,10 @@ regions[intro_banner] = Intro banner
 regions[involved] = Involved
 regions[content] = Content
 regions[members] = Members
+regions[blog] = Blog
 regions[footer] = Footer
+
+
 
 ;-- C S S --
 stylesheets[all][] = style.css

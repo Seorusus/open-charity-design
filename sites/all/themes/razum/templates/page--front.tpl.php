@@ -63,6 +63,10 @@
       <div class="members">
         <?php echo render($page['members']); ?>
       </div>
+<!-- Region Blog -->
+      <div class="blog">
+        <?php echo render($page['blog']); ?>
+      </div>
     </div>
   </div>
   <div class="footer-wrapper">
