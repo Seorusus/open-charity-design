@@ -54,9 +54,9 @@
         <div class="tabs"><?php print $tabs; ?></div>
       <?php endif; ?>
 
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
+<!--      --><?php //if ($action_links): ?>
+<!--        <ul class="action-links">--><?php //print render($action_links); ?><!--</ul>-->
+<!--      --><?php //endif; ?>
 
       <?php echo render($page['content']); ?>
 <!-- Region Members -->
