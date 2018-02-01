@@ -6,8 +6,7 @@
 
 ?>
 <div class="body-inner">
-  <div class="header-wrapper">
-    <header>
+    <header class="header body-inner__header">
       <div class="container">
         <?php if ($logo): ?>
 <!-- Region Logo -->
@@ -18,7 +17,7 @@
         </div>
         <?php endif; ?>
       </div>
-    </header>
+
     <?php if (!empty($page['navigation'])): ?>
     <nav id="navigation">
       <div class="container">
@@ -27,8 +26,8 @@
       </div>
     </nav>
     <?php endif; ?>
-  </div>
-  <div id="main">
+    </header>
+  <div id="main" class="main body-inner__main">
     <div class="container">
 <!-- Region Intro banner -->
       <div class="intro-banner">
@@ -71,7 +70,7 @@
     </div>
   </div>
   <div class="footer-wrapper">
-    <footer id="footer">
+    <footer class="footer page__footer">
       <div class="container">
         <?php if (!empty($page['footer'])) : ?>
 <!-- Region Footer -->
