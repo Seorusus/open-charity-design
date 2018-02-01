@@ -17,6 +17,9 @@ regions[footer] = Footer
 
 
 ;-- C S S --
-stylesheets[all][] = style.css
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = stylesheets/print.css
+stylesheets[all][] = stylesheets/ie.css
 
 ;-- JS --
+

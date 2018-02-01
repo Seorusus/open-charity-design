@@ -5,3 +5,10 @@
 
 @import "compass/reset";
 
+/** --$variables-- */
+$link: #61c0bd;
+
+/** --Header-- */
+.body-inner__header {
+  height: 50px;
+}
