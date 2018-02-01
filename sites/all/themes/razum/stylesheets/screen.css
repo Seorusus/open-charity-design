@@ -66,3 +66,62 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: MuseoSans;
+  font-family: OpenSans;
+  src: url("fonts/MuseoSans-300.otf") format("otf"), url("fonts/MuseoSans-500.otf") format("otf"), url("fonts/MuseoSans-700.otf") format("otf"), url("fonts/OpenSans-Bold.ttf") format("ttf"), url("fonts/OpenSans-BoldItalic.ttf") format("ttf"), url("fonts/OpenSans-CondBold.ttf") format("ttf"), url("fonts/OpenSans-CondLight.ttf") format("ttf"), url("fonts/OpenSans-CondLightItalic.ttf") format("ttf"), url("fonts/OpenSans-ExtraBold.ttf") format("ttf"), url("fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"), url("fonts/OpenSans-Italic.ttf") format("ttf"), url("fonts/OpenSans-Light.ttf") format("ttf"), url("fonts/OpenSans-LightItalic.ttf") format("ttf"), url("fonts/OpenSans-Regular.ttf") format("ttf"), url("fonts/OpenSans-Semibold.ttf") format("ttf"), url("fonts/OpenSans-SemiboldItalic.ttf") format("ttf");
+}
+/** --$variables-- */
+/** --Body-- */
+/* line 35, ../sass/screen.scss */
+body {
+  font-family: MuseoSans;
+}
+
+/* line 38, ../sass/screen.scss */
+a {
+  font-size: 1em;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  font-family: MuseoSans;
+}
+
+/* line 47, ../sass/screen.scss */
+.body-inner {
+  margin: 0 auto;
+  /** --Header-- */
+}
+/* line 51, ../sass/screen.scss */
+.body-inner .body-inner__header {
+  height: 200px;
+  padding-top: 40px;
+}
+/* line 54, ../sass/screen.scss */
+.body-inner .body-inner__header .logo {
+  float: left;
+  width: 156px;
+  margin-left: 85px;
+}
+/* line 59, ../sass/screen.scss */
+.body-inner .body-inner__header .menu {
+  float: right;
+  display: inline-flex;
+  margin-right: 80px;
+}
+/* line 63, ../sass/screen.scss */
+.body-inner .body-inner__header .menu .menu__item {
+  list-style-image: none;
+  list-style-type: none;
+}
+/* line 67, ../sass/screen.scss */
+.body-inner .body-inner__header .menu a {
+  color: #575656;
+  text-decoration: none;
+}
+/* line 70, ../sass/screen.scss */
+.body-inner .body-inner__header .menu a:hover {
+  color: #61c0bd !important;
+}
