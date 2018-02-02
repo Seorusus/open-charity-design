@@ -101,7 +101,8 @@ body {
 .intro-banner {
   padding-bottom: 5.1875rem;
   padding-top: 3.625rem;
-  background: url(../images/hero.jpg) center no-repeat fixed;
+  background: url(../images/hero.jpg) top no-repeat fixed;
+  background-size: cover;
 
   .intro-block {
     text-align: center;
@@ -111,6 +112,9 @@ body {
     .intro-block__division {
       font-size: 1.125rem;
 
+      .intro-title {
+        letter-spacing: -0.1rem;
+      }
       .first-paragraph {
         line-height: 33px;
         line-height: 2.0625rem;
