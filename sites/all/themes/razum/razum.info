@@ -20,7 +20,6 @@ regions[footer] = Footer
 stylesheets[all][] = stylesheets/screen.css
 stylesheets[all][] = stylesheets/print.css
 stylesheets[all][] = stylesheets/ie.css
-stylesheets[all][] = fonts/fonts.css
 
 ;-- JS --
 

@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /** --Body-- */
 /* line 35, ../sass/screen.scss */
 body {
-  font-family: MuseoSans;
+  font-family: "MuseoSans";
 }
 
 /* line 38, ../sass/screen.scss */
@@ -95,7 +95,7 @@ a {
 }
 /* line 50, ../sass/screen.scss */
 .body-inner .body-inner__header {
-  font-family: MuseoSans;
+  font-family: "MuseoSans";
   height: 200px;
   padding-top: 40px;
 }
@@ -121,7 +121,7 @@ a {
   color: #575656;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: MuseoSans;
+  font-family: "MuseoSans";
 }
 /* line 73, ../sass/screen.scss */
 .body-inner .body-inner__header .menu a:hover {

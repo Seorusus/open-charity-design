@@ -1,6 +1,0 @@
-/** --Added include fonts-- */
-@font-face {
-  font-family: "MuseoSans";
-  src: url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans-300.ttf") format("opentype"), url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_500.otf") format("opentype"), url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_700.otf") format("opentype");
-  src: url("../fonts/OpenSans-Bold.ttf") format("ttf"), url("../fonts/OpenSans-BoldItalic.ttf") format("ttf"), url("../fonts/OpenSans-CondBold.ttf") format("ttf"), url("../fonts/OpenSans-CondLight.ttf") format("ttf"), url("../fonts/OpenSans-CondLightItalic.ttf") format("ttf"), url("../fonts/OpenSans-ExtraBold.ttf") format("ttf"), url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"), url("../fonts/OpenSans-Italic.ttf") format("ttf"), url("../fonts/OpenSans-Light.ttf") format("ttf"), url("../fonts/OpenSans-LightItalic.ttf") format("ttf"), url("../fonts/OpenSans-Regular.ttf") format("ttf"), url("../fonts/OpenSans-Semibold.ttf") format("ttf"), url("../fonts/OpenSans-SemiboldItalic.ttf") format("ttf");
-}
