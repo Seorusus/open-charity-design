@@ -5,11 +5,11 @@
 
 @import "compass/reset";
 @font-face {
-  font-family: MuseoSans;
+  font-family: "MuseoSans";
   src: url('../fonts/MuseoSans-300.otf')format('otf'),
   url('../fonts/MuseoSans_500.otf')format('otf'),
-  url('../fonts/MuseoSans_700.otf')format('otf'),
-  url('../fonts/OpenSans-Bold.ttf')format('ttf'),
+  url('../fonts/MuseoSans_700.otf')format('otf');
+  src: url('../fonts/OpenSans-Bold.ttf')format('ttf'),
   url('../fonts/OpenSans-BoldItalic.ttf')format('ttf'),
   url('../fonts/OpenSans-CondBold.ttf')format('ttf'),
   url('../fonts/OpenSans-CondLight.ttf')format('ttf'),
@@ -22,13 +22,14 @@
   url('../fonts/OpenSans-Regular.ttf')format('ttf'),
   url('../fonts/OpenSans-Semibold.ttf')format('ttf'),
   url('../fonts/OpenSans-SemiboldItalic.ttf')format('ttf');
- }
+}
+
 
 /** --$variables-- */
 $link: #61c0bd;
 $menu: #575656;
 $content: #5b6172;
-$MuseoSans: MuseoSans;
+$MuseoSans: "MuseoSans";
 
 /** --Body-- */
 body {
@@ -40,7 +41,6 @@ body {
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    font-family: $MuseoSans;
   }
 
 .body-inner {
@@ -48,6 +48,7 @@ body {
 
   /** --Header-- */
   .body-inner__header {
+    font-family: $MuseoSans;
     height: 200px;
     padding-top: 40px;
     .logo {
