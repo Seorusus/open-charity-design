@@ -6,9 +6,9 @@
 @import "compass/reset";
 @font-face {
   font-family: "MuseoSans";
-  src: url('../fonts/MuseoSans-300.otf')format('otf'),
-  url('../fonts/MuseoSans_500.otf')format('otf'),
-  url('../fonts/MuseoSans_700.otf')format('otf');
+  src: url('http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans-300.otf')format('opentype'),
+  url('http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_500.otf')format('opentype'),
+  url('http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_700.otf')format('opentype');
   src: url('../fonts/OpenSans-Bold.ttf')format('ttf'),
   url('../fonts/OpenSans-BoldItalic.ttf')format('ttf'),
   url('../fonts/OpenSans-CondBold.ttf')format('ttf'),
@@ -29,7 +29,7 @@
 $link: #61c0bd;
 $menu: #575656;
 $content: #5b6172;
-$MuseoSans: "MuseoSans";
+$MuseoSans: MuseoSans;
 
 /** --Body-- */
 body {
@@ -68,6 +68,8 @@ body {
         color: $menu;
         text-decoration: none;
         text-transform: uppercase;
+        font-family: $MuseoSans;
+
         &:hover {
           color: $link !important;
         }

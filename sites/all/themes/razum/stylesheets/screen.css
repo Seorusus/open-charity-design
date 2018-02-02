@@ -69,14 +69,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: "MuseoSans";
-  src: url("../fonts/MuseoSans-300.otf") format("otf"), url("../fonts/MuseoSans_500.otf") format("otf"), url("../fonts/MuseoSans_700.otf") format("otf");
+  src: url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans-300.otf") format("opentype"), url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_500.otf") format("opentype"), url("http://dev-open-charity-design.pantheonsite.io/sites/all/themes/razum/fonts/MuseoSans_700.otf") format("opentype");
   src: url("../fonts/OpenSans-Bold.ttf") format("ttf"), url("../fonts/OpenSans-BoldItalic.ttf") format("ttf"), url("../fonts/OpenSans-CondBold.ttf") format("ttf"), url("../fonts/OpenSans-CondLight.ttf") format("ttf"), url("../fonts/OpenSans-CondLightItalic.ttf") format("ttf"), url("../fonts/OpenSans-ExtraBold.ttf") format("ttf"), url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"), url("../fonts/OpenSans-Italic.ttf") format("ttf"), url("../fonts/OpenSans-Light.ttf") format("ttf"), url("../fonts/OpenSans-LightItalic.ttf") format("ttf"), url("../fonts/OpenSans-Regular.ttf") format("ttf"), url("../fonts/OpenSans-Semibold.ttf") format("ttf"), url("../fonts/OpenSans-SemiboldItalic.ttf") format("ttf");
 }
 /** --$variables-- */
 /** --Body-- */
 /* line 35, ../sass/screen.scss */
 body {
-  font-family: "MuseoSans";
+  font-family: MuseoSans;
 }
 
 /* line 38, ../sass/screen.scss */
@@ -95,7 +95,7 @@ a {
 }
 /* line 50, ../sass/screen.scss */
 .body-inner .body-inner__header {
-  font-family: "MuseoSans";
+  font-family: MuseoSans;
   height: 200px;
   padding-top: 40px;
 }
@@ -121,8 +121,9 @@ a {
   color: #575656;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: MuseoSans;
 }
-/* line 71, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .body-inner .body-inner__header .menu a:hover {
   color: #61c0bd !important;
 }
