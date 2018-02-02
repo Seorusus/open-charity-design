@@ -211,3 +211,38 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* line 149, ../sass/screen.scss */
+.involved {
+  padding-left: 50px;
+}
+/* line 151, ../sass/screen.scss */
+.involved .next-event {
+  margin-top: 30px;
+  font-weight: 700;
+  color: #575656;
+  line-height: 1.6rem;
+}
+/* line 157, ../sass/screen.scss */
+.involved .next-event .next-event__title {
+  color: #61c0bd;
+  font-weight: 700;
+  font-size: 1.1rem;
+  float: left;
+}
+/* line 163, ../sass/screen.scss */
+.involved .next-event .date-display-single {
+  float: left;
+  margin-left: 5px;
+}
+/* line 167, ../sass/screen.scss */
+.involved .next-event .views-field-field-time {
+  float: left;
+  margin-left: 10px;
+}
+/* line 171, ../sass/screen.scss */
+.involved .next-event .views-field-body {
+  clear: both;
+  font-weight: 500;
+  font-size: 1rem;
+}

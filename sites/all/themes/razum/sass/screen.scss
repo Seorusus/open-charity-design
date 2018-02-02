@@ -146,3 +146,34 @@ body {
     }
   }
 }
+.involved {
+  padding-left: 50px;
+  .next-event {
+    margin-top: 30px;
+    font-weight: 700;
+    color: $menu;
+    line-height: 1.6rem;
+
+    .next-event__title {
+      color: $link;
+      font-weight: 700;
+      font-size: 1.1rem;
+      float: left;
+    }
+    .date-display-single {
+      float: left;
+      margin-left: 5px;
+    }
+    .views-field-field-time {
+      float: left;
+      margin-left: 10px;
+    }
+    .views-field-body {
+      clear: both;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+  }
+}
+
+
