@@ -109,14 +109,24 @@ body {
           padding: .7rem 1.5rem .7rem;
           color: $link;
           border-style: solid;
-          border-width: 1px;
+          border-width: 0.07778rem;
           margin-top: -17px;
         }
       }
 
     }
   }
+
+  /** --Region content on Front-- */
+
+  .body-inner__main {
+    .region-content {
+      background: $even;
+    }
+  }
 }
+
+/** --Intro Banner-- */
 
 .intro-banner {
   padding-bottom: 5.1875rem;
@@ -167,59 +177,63 @@ body {
   }
 }
 
-  .next-event {
-    background: $even;
-    padding: 30px 0 30px 50px;
+/** --Next Event-- */
+
+.next-event {
+  background: $even;
+  padding: 30px 0 30px 50px;
+  font-weight: 700;
+  color: $menu;
+  line-height: 1.6rem;
+
+  .next-event__title {
+    color: $link;
     font-weight: 700;
-    color: $menu;
-    line-height: 1.6rem;
+    font-size: 1.1rem;
+    float: left;
+  }
+  .date-display-single {
+    float: left;
+    margin-left: 5px;
+  }
+  .views-field-field-time {
+    float: left;
+    margin-left: 10px;
+  }
+  .register {
+    float: right;
+    margin-right: 60px;
+    position: relative;
+    top: 15px;
 
-    .next-event__title {
-      color: $link;
-      font-weight: 700;
-      font-size: 1.1rem;
-      float: left;
-    }
-    .date-display-single {
-      float: left;
-      margin-left: 5px;
-    }
-    .views-field-field-time {
-      float: left;
-      margin-left: 10px;
-    }
-    .register {
-      float: right;
-      margin-right: 60px;
-      position: relative;
-      top: 15px;
-
-      a {
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        -ms-border-radius: 2px;
-        border-radius: 2px;
-        font-size: .875rem;
-        display: inline-block;
-        padding: 0.5rem 1.5rem .5rem;
-        color: $white;
-        border-style: solid;
-        border-width: 1px;
-        margin-top: -17px;
-        background-color: $link;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
-    }
-    .views-field-body {
-      clear: both;
-      font-weight: 500;
-      font-size: .95rem;
+    a {
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      font-size: .875rem;
+      display: inline-block;
+      padding: 0.5rem 1.5rem .5rem;
+      color: $white;
+      border-style: solid;
+      border-width: 0.07778rem;
+      margin-top: -17px;
+      background-color: $link;
+      text-decoration: none;
+      text-transform: uppercase;
     }
   }
+  .views-field-body {
+    clear: both;
+    font-weight: 500;
+    font-size: .95rem;
+  }
+}
+
+/** --Get Involved-- */
+
 .get-involved {
-  margin-top: 40px;
-  margin-top: 2.2222rem;
+  margin: 2.2222rem 0;
 
   .view-get-involved {
     margin-top: 40px;
@@ -251,6 +265,8 @@ body {
           line-height: 1.5rem;
           font-weight: 500;
           font-size: .95rem;
+          letter-spacing: -0.009rem;
+
         }
         .link-to-content {
           margin-top: 20px;
@@ -273,6 +289,37 @@ body {
           }
         }
       }
+    }
+  }
+}
+/** --Our Mission-- */
+
+.our-mission {
+  padding-top: 1.1111rem;
+  margin: 0 4.4444rem;
+
+  .view-header {
+    text-align: center;
+  }
+  .bottom-description {
+    letter-spacing: -0.009rem;
+    font-size: 1.0625rem;
+    margin-top: 1.625rem;
+    font-family: $MuseoSans;
+    font-weight: 500;
+  }
+  .view-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.875rem;
+    padding-bottom: 2.875rem;
+    border-bottom: 0.07778rem rgba(217, 218, 221, 0.72) solid;
+
+    .views-row {
+      float: left;
+      margin: 0 auto;
+      width: 30%;
+      text-align: center;
     }
   }
 }
