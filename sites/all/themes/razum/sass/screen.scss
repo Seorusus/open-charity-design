@@ -25,6 +25,7 @@ h1 {
   font-size: 3.5rem;
   color: $white;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h2 {
   color: $menu;
   text-align: center;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -44,7 +46,6 @@ h3 {
 h1, h2, h3 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  text-transform: uppercase;
 }
 
 h1, h2 {
@@ -309,6 +310,7 @@ body {
     font-weight: 500;
   }
   .view-content {
+    margin-top: 2.7778rem;
     display: flex;
     justify-content: space-between;
     padding-top: 2.875rem;
@@ -317,9 +319,35 @@ body {
 
     .views-row {
       float: left;
-      margin: 0 auto;
       width: 30%;
       text-align: center;
+      padding: 0 1.25rem 1.8125rem;
+      background: #fff;
+
+      .mission-image {
+        border-radius: 50%;
+        border-width: .625rem;
+        height: auto;
+        margin-top: -3.125rem;
+        width: 4.4445rem;
+        border-color: $white;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .views-field-title {
+        margin-top: .375rem;
+        margin-bottom: .875rem;
+        color: $link;
+        font-weight: 700;
+      }
+      .field-content {
+        line-height: 1.4375rem;
+        letter-spacing: -0.009rem;
+      }
+    }
+    .views-row-2 {
+      margin: 0 1.9rem;
     }
   }
 }
