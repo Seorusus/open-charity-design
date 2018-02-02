@@ -183,34 +183,34 @@ a {
   border-width: 0.07778rem;
   margin-top: -17px;
 }
-/* line 124, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .body-inner .body-inner__main .region-content {
   background: #f2f2f2;
 }
 
 /** --Intro Banner-- */
-/* line 132, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .intro-banner {
   padding-bottom: 5.1875rem;
   padding-top: 3.625rem;
   background: url(../images/hero.jpg) top no-repeat fixed;
   background-size: cover;
 }
-/* line 138, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .intro-banner .intro-block {
   text-align: center;
   color: #fff;
   text-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
-/* line 143, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .intro-banner .intro-block .intro-block__division {
   font-size: 1.125rem;
 }
-/* line 146, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .intro-banner .intro-block .intro-block__division .intro-title {
   letter-spacing: -0.1rem;
 }
-/* line 149, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .intro-banner .intro-block .intro-block__division .first-paragraph {
   line-height: 33px;
   line-height: 2.0625rem;
@@ -221,7 +221,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 159, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .intro-banner .intro-block .intro-block__division .second-paragraph {
   font-size: 15px;
   font-size: .9375rem;
@@ -233,7 +233,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 170, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .intro-banner .intro-block .intro-block__division .third-paragraph {
   font-size: 18px;
   font-size: 1.125rem;
@@ -242,7 +242,7 @@ a {
 }
 
 /** --Next Event-- */
-/* line 183, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .next-event {
   background: #f2f2f2;
   padding: 30px 0 30px 50px;
@@ -250,31 +250,31 @@ a {
   color: #575656;
   line-height: 1.6rem;
 }
-/* line 190, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .next-event .next-event__title {
   color: #61c0bd;
   font-weight: 700;
   font-size: 1.1rem;
   float: left;
 }
-/* line 196, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .next-event .date-display-single {
   float: left;
   margin-left: 5px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .next-event .views-field-field-time {
   float: left;
   margin-left: 10px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .next-event .register {
   float: right;
   margin-right: 60px;
   position: relative;
   top: 15px;
 }
-/* line 210, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .next-event .register a {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -291,7 +291,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 227, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .next-event .views-field-body {
   clear: both;
   font-weight: 500;
@@ -299,54 +299,54 @@ a {
 }
 
 /** --Get Involved-- */
-/* line 236, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .get-involved {
   margin: 2.2222rem 0;
 }
-/* line 239, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .get-involved .view-get-involved {
   margin-top: 40px;
   margin-top: 2.2222rem;
 }
-/* line 242, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content {
   display: flex;
   justify-content: space-between;
 }
-/* line 246, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row {
   float: left;
   margin: 0 auto;
   width: 30%;
   text-align: center;
 }
-/* line 252, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-title {
   margin: 25px 0;
 }
-/* line 255, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-field-image-inv {
   width: 140px;
   margin: 0 auto;
 }
-/* line 259, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-field-image-inv img {
   height: 108px;
   height: 6.75rem;
   width: auto;
 }
-/* line 265, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-body {
   line-height: 1.5rem;
   font-weight: 500;
   font-size: .95rem;
   letter-spacing: -0.009rem;
 }
-/* line 272, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .link-to-content {
   margin-top: 20px;
 }
-/* line 275, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .get-involved .view-get-involved .view-content .views-row .link-to-content a {
   width: 9rem;
   -webkit-border-radius: 2px;
@@ -365,16 +365,16 @@ a {
 }
 
 /** --Our Mission-- */
-/* line 298, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .our-mission {
   padding-top: 1.1111rem;
   margin: 0 4.4444rem;
 }
-/* line 302, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .our-mission .view-header {
   text-align: center;
 }
-/* line 305, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .our-mission .bottom-description {
   letter-spacing: -0.009rem;
   font-size: 1.0625rem;
@@ -382,7 +382,7 @@ a {
   font-family: "MuseoSans";
   font-weight: 500;
 }
-/* line 312, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .our-mission .view-content {
   margin-top: 2.7778rem;
   display: flex;
@@ -391,7 +391,7 @@ a {
   padding-bottom: 2.875rem;
   border-bottom: 0.07778rem rgba(217, 218, 221, 0.72) solid;
 }
-/* line 320, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .our-mission .view-content .views-row {
   float: left;
   width: 30%;
@@ -399,7 +399,7 @@ a {
   padding: 0 1.25rem 1.8125rem;
   background: #fff;
 }
-/* line 327, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .our-mission .view-content .views-row .mission-image {
   border-radius: 50%;
   border-width: .625rem;
@@ -411,19 +411,83 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 338, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .our-mission .view-content .views-row .views-field-title {
   margin-top: .375rem;
   margin-bottom: .875rem;
   color: #61c0bd;
   font-weight: 700;
 }
-/* line 344, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .our-mission .view-content .views-row .field-content {
   line-height: 1.4375rem;
   letter-spacing: -0.009rem;
 }
-/* line 349, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .our-mission .view-content .views-row-2 {
   margin: 0 1.9rem;
+}
+
+/* line 354, ../sass/screen.scss */
+.members {
+  background: #f2f2f2;
+  padding-top: 2.2222rem;
+  padding-bottom: 2.2222rem;
+}
+
+/** --Our Members-- */
+/* line 362, ../sass/screen.scss */
+.our-members .slick-list {
+  margin: 2.2222rem 0;
+}
+/* line 365, ../sass/screen.scss */
+.our-members .slick-list .slick__slide {
+  height: 5rem;
+  position: relative;
+}
+/* line 369, ../sass/screen.scss */
+.our-members .slick-list .slick__slide img {
+  max-width: 9rem;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  max-height: 100%;
+  position: absolute;
+  top: 2.51111rem;
+  width: auto;
+}
+
+/** --Blog--*/
+/* line 385, ../sass/screen.scss */
+.blog-front {
+  margin-top: 1.7555rem;
+}
+/* line 387, ../sass/screen.scss */
+.blog-front .slide__grid {
+  margin: 0 20px;
+}
+/* line 390, ../sass/screen.scss */
+.blog-front .slide__grid .views-field-title {
+  font-weight: 700;
+  margin-top: 1.1111rem;
+  margin-bottom: 0.5555rem;
+}
+/* line 394, ../sass/screen.scss */
+.blog-front .slide__grid .views-field-title a {
+  color: #61c0bd;
+  text-decoration: none;
+}
+/* line 399, ../sass/screen.scss */
+.blog-front .slide__grid .views-field-body {
+  padding: 1.1111rem 0;
+  line-height: 1.4375rem;
+  text-align: justify;
+  height: auto;
+  border-top: 0.05rem rgba(217, 218, 221, 0.51) solid;
+  border-bottom: 0.05rem rgba(217, 218, 221, 0.5) solid;
+}
+/* line 407, ../sass/screen.scss */
+.blog-front .slide__grid .views-field-field-date {
+  margin-top: 1.3888rem;
 }
