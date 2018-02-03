@@ -22,4 +22,4 @@ stylesheets[all][] = stylesheets/print.css
 stylesheets[all][] = stylesheets/ie.css
 
 ;-- JS --
-
+scripts[] = javascripts/script.js

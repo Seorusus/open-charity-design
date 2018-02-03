@@ -6,27 +6,27 @@
 
 ?>
 <div class="body-inner">
-    <header class="header page__header">
-      <div class="container">
-        <?php if ($logo): ?>
-<!-- Region Logo -->
-          <div class="logo">
-            <a href="<?php echo url('<front>'); ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-            </a>
-          </div>
-        <?php endif; ?>
-      </div>
+  <header class="header body-inner__header">
+    <div class="container">
+      <?php if ($logo): ?>
+        <!-- Region Logo -->
+        <div class="logo">
+          <a href="<?php echo url('<front>'); ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          </a>
+        </div>
+      <?php endif; ?>
+    </div>
 
     <?php if (!empty($page['navigation'])): ?>
       <nav id="navigation">
         <div class="container">
-<!-- Region Navigation -->
+          <!-- Region Navigation -->
           <?php print render($page['navigation']); ?>
         </div>
       </nav>
     <?php endif; ?>
-    </header>
+  </header>
    <div id="main" class="main body-inner__main">
     <div class="container">
 <!-- Region Content -->
