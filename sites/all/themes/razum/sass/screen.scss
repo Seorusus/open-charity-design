@@ -55,6 +55,7 @@ h1, h2 {
 body {
   font-family: $MuseoSans;
 }
+
   a {
     font-size: 1em;
     -webkit-transition: all .4s ease-in-out;
@@ -453,17 +454,30 @@ body {
     border-top: 1px solid #575656;
   }
   .social-icons {
-    .icon {
-      height: 18px;
-      height: 1.125rem;
-      width: 30px;
-      width: 1.875rem;
-      background: url(../images/icons/social.png) no-repeat;
-      background-size: cover;
-      display: inline-block;
 
+    .footer-icons {
+      display: flex;
+      justify-content: space-between;
+      width: 90px;
+      margin: 0 auto;
+
+      .icon {
+        height: 18px;
+        height: 1.125rem;
+        width: 30px;
+        width: 1.875rem;
+        background: url(../images/icons/social.png) no-repeat;
+        background-size: cover;
+        display: inline-block;
+      }
       .facebook {
-        background-position: 0 0;
+        background-position: 9px center;
+      }
+      .twitter {
+        background-position: -28px center;
+      }
+      .google {
+        background-position: right center;
       }
     }
   }
@@ -471,6 +485,14 @@ body {
 
 
 /** --Respnsive-- */
+/* @media (min-width: 1100px) {
+  .content {
+    max-width: 1100px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 @media (min-width: 960px) {
   .content {
     max-width: 865px;
@@ -495,3 +517,4 @@ body {
     padding-right: .9375rem;
   }
 }
+*/
