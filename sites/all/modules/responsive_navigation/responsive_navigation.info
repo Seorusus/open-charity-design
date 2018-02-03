@@ -6,9 +6,9 @@ package = User interface
 dependencies[] = menu
 dependencies[] = libraries (>=2.0)
 
-; Information added by drupal.org packaging script on 2013-05-28
-version = "7.x-1.0"
+; Information added by Drupal.org packaging script on 2016-05-13
+version = "7.x-1.0+4-dev"
 core = "7.x"
 project = "responsive_navigation"
-datestamp = "1369765563"
+datestamp = "1463171758"
 
