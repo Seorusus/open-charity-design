@@ -443,6 +443,24 @@ p {
 
     }
   }
+  .slick__arrow {
+    .slick-prev {
+      background: url(../images/arrow-left.png) no-repeat center center;
+      background-size: 40%;
+
+      &::before {
+        content: "";
+      }
+    }
+    .slick-next {
+      background: url(../images/arrow-right.png) no-repeat center center;
+      background-size: 40%;
+
+      &::before {
+        content: "";
+      }
+    }
+  }
 }
 /** --Blog--*/
 .blog-front {
@@ -662,9 +680,11 @@ p {
     }
   }
   .form-item-count {
+    min-height: 74px;
+
     .form-text {
       padding: 8px;
-      margin-top: -9px;
+      margin-top: -8px;
     }
   }
 
@@ -808,6 +828,54 @@ p {
       input {
         height: 28px;
         margin-top: 9px;
+      }
+    }
+  }
+  .our-members {
+    .slick__arrow {
+      .slick-prev {
+        background-size: 60%;
+      }
+
+      .slick-next {
+        background-size: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px){
+  .front {
+    .blog-front {
+       .slick-prev, .slick-next {
+        top: 0;
+      }
+      .slick__arrow {
+        .slick-prev {
+          background-size: 80%;
+        }
+
+        .slick-next {
+          background-size: 80%;
+        }
+      }
+    }
+  }
+  .node-webform {
+    .webform-component {
+      input {
+        margin-top: 10px;
+      }
+    }
+  }
+  .our-members {
+    .slick__arrow {
+      .slick-prev {
+        background-size: 80%;
+      }
+
+      .slick-next {
+        background-size: 80%;
       }
     }
   }
