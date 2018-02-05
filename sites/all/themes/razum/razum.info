@@ -20,7 +20,10 @@ regions[footer] = Footer
 stylesheets[all][] = stylesheets/screen.css
 stylesheets[all][] = stylesheets/print.css
 stylesheets[all][] = stylesheets/ie.css
+stylesheets[all][] = stylesheets/join-us.css
+stylesheets[all][] = stylesheets/blog-page.css
 stylesheets[all][] = stylesheets/responsive.css
+stylesheets[all][] = stylesheets/registration.css
 
 ;-- JS --
 scripts[] = javascripts/script.js
