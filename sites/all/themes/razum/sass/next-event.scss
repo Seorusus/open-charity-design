@@ -7,7 +7,7 @@
 
 .next-event {
   background: $even;
-  padding: 30px 0 30px 50px;
+  padding: 1.667rem 0 1.667rem 2.7778rem;
   font-weight: 700;
   color: $menu;
   line-height: 1.6rem;
@@ -24,13 +24,13 @@
   }
   .views-field-field-time {
     float: left;
-    margin-left: 10px;
+    margin-left: .5555rem;
   }
   .register {
     float: right;
-    margin-right: 60px;
+    margin-right: 3.3333rem;
     position: relative;
-    top: 15px;
+    top: 0.8333rem;
 
     a {
       -webkit-border-radius: 2px;
@@ -44,7 +44,7 @@
       border-style: solid;
       border-width: 0.07778rem;
       border-color: $link;
-      margin-top: -17px;
+      margin-top: -0.9444rem;
       background-color: $link;
       text-decoration: none;
       text-transform: uppercase;

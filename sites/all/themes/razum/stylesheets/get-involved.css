@@ -5,48 +5,46 @@
 }
 /* line 9, ../sass/get-involved.scss */
 .get-involved .view-get-involved {
-  margin-top: 40px;
   margin-top: 2.2222rem;
 }
-/* line 12, ../sass/get-involved.scss */
+/* line 11, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content {
   display: flex;
   justify-content: space-between;
 }
-/* line 16, ../sass/get-involved.scss */
+/* line 15, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row {
   float: left;
   margin: 0 auto;
   width: 30%;
   text-align: center;
 }
-/* line 22, ../sass/get-involved.scss */
+/* line 21, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-title {
-  margin: 25px 0;
+  margin: 1.3888rem 0;
 }
-/* line 25, ../sass/get-involved.scss */
+/* line 24, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-field-image-inv {
-  width: 140px;
+  width: 7.7778rem;
   margin: 0 auto;
 }
-/* line 29, ../sass/get-involved.scss */
+/* line 28, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-field-image-inv img {
-  height: 108px;
   height: 6.75rem;
   width: auto;
 }
-/* line 35, ../sass/get-involved.scss */
+/* line 33, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .views-field-body {
   line-height: 1.5rem;
   font-weight: 500;
   font-size: .95rem;
   letter-spacing: -0.009rem;
 }
-/* line 41, ../sass/get-involved.scss */
+/* line 39, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .link-to-content {
-  margin-top: 20px;
+  margin-top: 1.1111rem;
 }
-/* line 44, ../sass/get-involved.scss */
+/* line 42, ../sass/get-involved.scss */
 .get-involved .view-get-involved .view-content .views-row .link-to-content a {
   width: 9rem;
   -webkit-border-radius: 2px;

@@ -16,8 +16,6 @@ regions[footer] = Footer
 
 ;-- C S S --
 stylesheets[all][] = stylesheets/screen.css
-stylesheets[all][] = stylesheets/print.css
-stylesheets[all][] = stylesheets/ie.css
 stylesheets[all][] = stylesheets/join-us.css
 stylesheets[all][] = stylesheets/blog-page.css
 stylesheets[all][] = stylesheets/registration.css
@@ -28,6 +26,7 @@ stylesheets[all][] = stylesheets/our-mission.css
 stylesheets[all][] = stylesheets/our-members.css
 stylesheets[all][] = stylesheets/blog-front.css
 stylesheets[all][] = stylesheets/responsive.css
+stylesheets[print][] = stylesheets/print.css
 
 ;-- JS --
 scripts[] = javascripts/script.js

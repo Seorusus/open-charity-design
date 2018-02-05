@@ -1,4 +1,3 @@
-/** --$variables-- */
 /** -- Join Us Form -- */
 /* line 7, ../sass/join-us.scss */
 .webform-client-form input.webform-submit.button-primary.form-submit {
@@ -21,16 +20,16 @@
 /* line 24, ../sass/join-us.scss */
 .webform-client-form .webform-component {
   margin-bottom: 1.4444rem;
-  min-height: 68px;
+  min-height: 3.7778rem;
 }
 /* line 28, ../sass/join-us.scss */
 .webform-client-form .webform-component label {
   width: 5.55555rem;
-  padding-bottom: 10px;
+  padding-bottom: .5555rem;
 }
 /* line 33, ../sass/join-us.scss */
 .webform-client-form .webform-component input {
-  margin-left: 10px;
+  margin-left: .5555rem;
 }
 
 /* line 39, ../sass/join-us.scss */
