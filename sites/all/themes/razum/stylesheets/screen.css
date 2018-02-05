@@ -955,3 +955,20 @@ p {
     margin: 40px auto;
   }
 }
+@media (max-width: 601px) {
+  /* line 945, ../sass/screen.scss */
+  .next-event {
+    padding-bottom: 110px;
+  }
+  /* line 948, ../sass/screen.scss */
+  .next-event .views-field-field-registration {
+    width: 100px;
+  }
+  /* line 951, ../sass/screen.scss */
+  .next-event .views-field-field-registration .register {
+    float: none;
+    margin-right: 0;
+    position: relative;
+    top: 150px;
+  }
+}

@@ -940,3 +940,20 @@ p {
     }
   }
 }
+
+@media (max-width: 601px) {
+  .next-event {
+    padding-bottom: 110px;
+
+    .views-field-field-registration {
+      width: 100px;
+
+      .register {
+        float: none;
+        margin-right: 0;
+        position: relative;
+        top: 150px;
+      }
+    }
+  }
+}
