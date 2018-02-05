@@ -5,8 +5,6 @@
 
 @import "compass/reset";
 
-
-
 /** --$variables-- */
 $link: #61c0bd;
 $menu: #575656;
@@ -91,6 +89,12 @@ p {
   }
 }
 
+.body-inner__header {
+  .menu {
+    margin-right: 60px;
+  }
+}
+
 .body-inner {
   margin: 0 auto;
 
@@ -120,7 +124,6 @@ p {
     .menu {
       float: right;
       display: inline-flex;
-      margin-right: 60px;
 
       .menu__item {
         list-style-image: none;
@@ -329,7 +332,6 @@ p {
           font-weight: 500;
           font-size: .95rem;
           letter-spacing: -0.009rem;
-
         }
         .link-to-content {
           margin-top: 20px;
@@ -861,6 +863,14 @@ p {
       }
     }
   }
+
+
+  .our-mission {
+    .views-field-title {
+      min-height: 45px;
+    }
+  }
+
   .node-webform {
     .webform-component {
       input {
@@ -868,6 +878,13 @@ p {
       }
     }
   }
+
+  .get-involved {
+    .views-field-body {
+      min-height: 80px;
+    }
+  }
+
   .our-members {
     .slick__arrow {
       .slick-prev {
@@ -876,6 +893,49 @@ p {
 
       .slick-next {
         background-size: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 721px) {
+  .body-inner {
+    .body-inner__header {
+      .menu {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 668px) {
+  .body-inner {
+    .body-inner__header {
+      .logo img {
+        width: 100%;
+      }
+    }
+  }
+  .get-involved {
+    .view-get-involved {
+      .view-content {
+        display: block;
+
+        .views-row {
+          float: none;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  .our-mission {
+    .view-content {
+    display: block;
+
+      .views-row {
+        float: none;
+        width: 70%;
+        margin: 40px auto;
       }
     }
   }
