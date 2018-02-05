@@ -14,15 +14,12 @@ regions[members] = Members
 regions[blog] = Blog
 regions[footer] = Footer
 
-
-
 ;-- C S S --
 stylesheets[all][] = stylesheets/screen.css
 stylesheets[all][] = stylesheets/print.css
 stylesheets[all][] = stylesheets/ie.css
 stylesheets[all][] = stylesheets/join-us.css
 stylesheets[all][] = stylesheets/blog-page.css
-stylesheets[all][] = stylesheets/responsive.css
 stylesheets[all][] = stylesheets/registration.css
 stylesheets[all][] = stylesheets/intro-banner.css
 stylesheets[all][] = stylesheets/next-event.css
@@ -30,6 +27,7 @@ stylesheets[all][] = stylesheets/get-involved.css
 stylesheets[all][] = stylesheets/our-mission.css
 stylesheets[all][] = stylesheets/our-members.css
 stylesheets[all][] = stylesheets/blog-front.css
+stylesheets[all][] = stylesheets/responsive.css
 
 ;-- JS --
 scripts[] = javascripts/script.js

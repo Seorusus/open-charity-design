@@ -27,16 +27,14 @@
 
 @media (max-width: 1367px){
   .node-webform {
+
     .webform-component {
       margin-top: 3.5rem;
-      padding: 5px;
-      label {
-        //margin-top: 28px;
-      }
+      padding: 0.2777rem;
 
       input {
-        height: 19px;
-        margin-top: 2px;
+        height: 1.05555rem;
+        margin-top: 0.1111rem;
       }
     }
   }
@@ -44,6 +42,7 @@
 
 @media (max-width: 1025px) {
   .body-inner__main {
+
     .content {
       padding: 1.1111rem;
     }
@@ -52,25 +51,30 @@
   /** -- Front -- */
   .front {
     .body-inner__main {
+
       .content {
         padding: .5555rem;
       }
     }
     .next-event {
+
       .views-field-body {
         width: 70%;
       }
     }
     .slick--view--members--block {
+
       .slick-list {
         padding: 0 !important;
       }
     }
     .blog-front {
+
       .slick-list {
         padding: 0 !important;
 
         .slide__grid {
+
           .views-field-body {
             padding: 1.1111rem 0;
             line-height: 1.4375rem;
@@ -84,24 +88,29 @@
         }
       }
       .slick-prev, .slick-next{
-        top: -114px;
+        top: -6.3333rem;
       }
     }
   }
 
   .node-webform {
+
     .webform-component {
+
       label {
-        margin-top: 10px;
+        margin-top: 0.5555rem;
       }
+
       input {
-        height: 28px;
-        margin-top: 9px;
+        height: 1.5555rem;
+        margin-top: 0.5rem;
       }
     }
   }
+
   .our-members {
     .slick__arrow {
+
       .slick-prev {
         background-size: 60%;
       }
@@ -115,11 +124,15 @@
 
 @media (max-width: 769px){
   .front {
+
     .blog-front {
+
       .slick-prev, .slick-next {
         top: 0;
       }
+
       .slick__arrow {
+
         .slick-prev {
           background-size: 80%;
         }
@@ -133,28 +146,35 @@
 
 
   .our-mission {
+
     .views-field-title {
-      min-height: 45px;
+      min-height: 2.5rem
     }
   }
 
   .node-webform {
+
     .webform-component {
+
       input {
-        margin-top: 10px;
-        width: 260px;
+        margin-top: 0.55555rem;
+        width: rem;
       }
     }
   }
 
   .get-involved {
+
     .views-field-body {
-      min-height: 80px;
+
+      min-height: 4.4444rem;
     }
   }
 
   .our-members {
+
     .slick__arrow {
+
       .slick-prev {
         background-size: 80%;
       }
@@ -168,7 +188,9 @@
 
 @media (max-width: 721px) {
   .body-inner {
+
     .body-inner__header {
+
       .menu {
         margin-right: 0;
       }
@@ -178,27 +200,32 @@
 
 @media (max-width: 668px) {
   .body-inner {
+
     .body-inner__header {
+
       .logo img {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 0.83333rem;
       }
     }
   }
   .get-involved {
+
     .view-get-involved {
+
       .view-content {
         display: block;
 
         .views-row {
           float: none;
-          margin-bottom: 50px;
+          margin-bottom: 2.7778rem;
           width: 100%;
         }
       }
     }
   }
   .our-mission {
+
     .view-content {
       display: block;
 
@@ -207,15 +234,15 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 65px;
+        margin-bottom: 3.61111rem;
 
         .views-field-field-image-mission {
-          margin-bottom: -30px;
+          margin-bottom: -1.6667rem;
 
           .mission-image {
             margin-top: 0;
             position: relative;
-            top: -40px;
+            top: -2.2222rem;
           }
         }
       }
@@ -228,13 +255,13 @@
     padding-bottom: 6.1111rem;
 
     .views-field-field-registration {
-      width: 100px;
+      width: 5.5555rem;
 
       .register {
         float: none;
         margin-right: 0;
         position: relative;
-        top: 150px;
+        top: 8.3333rem;
       }
     }
   }
@@ -253,7 +280,7 @@
   .page-node-register {
     label {
       float: none;
-      margin-bottom: 20px;
+      margin-bottom: 1.11111rem;
     }
   }
 }
