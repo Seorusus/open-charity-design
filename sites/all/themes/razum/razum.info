@@ -27,6 +27,9 @@ stylesheets[all][] = stylesheets/registration.css
 stylesheets[all][] = stylesheets/intro-banner.css
 stylesheets[all][] = stylesheets/next-event.css
 stylesheets[all][] = stylesheets/get-involved.css
+stylesheets[all][] = stylesheets/our-mission.css
+stylesheets[all][] = stylesheets/our-members.css
+stylesheets[all][] = stylesheets/blog-front.css
 
 ;-- JS --
 scripts[] = javascripts/script.js

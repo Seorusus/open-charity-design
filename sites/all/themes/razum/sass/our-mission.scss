@@ -1,0 +1,60 @@
+@import "variables.scss";
+
+/** --Our Mission-- */
+
+.our-mission {
+  padding-top: 1.1111rem;
+  margin: 0 4.4444rem;
+
+  .view-header {
+    text-align: center;
+  }
+  .bottom-description {
+    letter-spacing: -0.009rem;
+    font-size: 1.0625rem;
+    margin-top: 1.625rem;
+    font-family: $MuseoSans;
+    font-weight: 500;
+  }
+  .view-content {
+    margin-top: 2.7778rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.875rem;
+    padding-bottom: 2.875rem;
+    border-bottom: 0.07778rem rgba(217, 218, 221, 0.72) solid;
+
+    .views-row {
+      float: left;
+      width: 30%;
+      text-align: center;
+      padding: 0 1.25rem 1.8125rem;
+      background: #fff;
+
+      .mission-image {
+        border-radius: 50%;
+        border-width: .625rem;
+        height: auto;
+        margin-top: -3.125rem;
+        width: 4.4445rem;
+        border-color: $white;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .views-field-title {
+        margin-top: .375rem;
+        margin-bottom: .875rem;
+        color: $link;
+        font-weight: 700;
+      }
+      .field-content {
+        line-height: 1.4375rem;
+        letter-spacing: -0.009rem;
+      }
+    }
+    .views-row-2 {
+      margin: 0 1.9rem;
+    }
+  }
+}

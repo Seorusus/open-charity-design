@@ -1,0 +1,60 @@
+/** --Blog--*/
+/* line 6, ../sass/blog-front.scss */
+.blog-front {
+  margin-top: 1.7555rem;
+  margin-bottom: 2.2222rem;
+}
+/* line 9, ../sass/blog-front.scss */
+.blog-front .slide__grid {
+  margin: 0 20px;
+}
+/* line 12, ../sass/blog-front.scss */
+.blog-front .slide__grid .views-field-title {
+  font-weight: 700;
+  margin-top: 1.1111rem;
+  margin-bottom: 0.5555rem;
+}
+/* line 16, ../sass/blog-front.scss */
+.blog-front .slide__grid .views-field-title a {
+  color: #61c0bd;
+  text-decoration: none;
+}
+/* line 21, ../sass/blog-front.scss */
+.blog-front .slide__grid .views-field-body {
+  padding: 1.1111rem 0;
+  line-height: 1.4375rem;
+  text-align: justify;
+  min-height: 15rem;
+  border-top: 0.05rem rgba(217, 218, 221, 0.51) solid;
+  border-bottom: 0.05rem rgba(217, 218, 221, 0.51) solid;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+/* line 31, ../sass/blog-front.scss */
+.blog-front .slide__grid .views-field-field-date {
+  margin-top: 1.3888rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+/* line 38, ../sass/blog-front.scss */
+.blog-front .slick--view--blog .slick-list {
+  margin: 0 2rem;
+}
+/* line 42, ../sass/blog-front.scss */
+.blog-front .slick--view--blog .slick__arrow .slick-prev {
+  background: url("../images/arrow-left.png") no-repeat center center;
+  background-size: 40%;
+}
+/* line 46, ../sass/blog-front.scss */
+.blog-front .slick--view--blog .slick__arrow .slick-prev::before {
+  content: "";
+}
+/* line 51, ../sass/blog-front.scss */
+.blog-front .slick--view--blog .slick__arrow .slick-next {
+  background: url("../images/arrow-right.png") no-repeat center center;
+  background-size: 40%;
+}
+/* line 55, ../sass/blog-front.scss */
+.blog-front .slick--view--blog .slick__arrow .slick-next::before {
+  content: "";
+}

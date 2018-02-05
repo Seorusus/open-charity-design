@@ -1,0 +1,47 @@
+/** --Our Members-- */
+/* line 5, ../sass/our-members.scss */
+.members {
+  background: #f2f2f2;
+  padding-top: 2.2222rem;
+  padding-bottom: 2.2222rem;
+}
+
+/* line 12, ../sass/our-members.scss */
+.our-members .slick-list {
+  margin: 2.2222rem 0;
+}
+/* line 15, ../sass/our-members.scss */
+.our-members .slick-list .slick__slide {
+  height: 5rem;
+  position: relative;
+}
+/* line 19, ../sass/our-members.scss */
+.our-members .slick-list .slick__slide img {
+  max-width: 9rem;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  max-height: 100%;
+  position: absolute;
+  top: 2.51111rem;
+  width: auto;
+}
+/* line 34, ../sass/our-members.scss */
+.our-members .slick__arrow .slick-prev {
+  background: url(../images/arrow-left.png) no-repeat center center;
+  background-size: 40%;
+}
+/* line 38, ../sass/our-members.scss */
+.our-members .slick__arrow .slick-prev::before {
+  content: "";
+}
+/* line 42, ../sass/our-members.scss */
+.our-members .slick__arrow .slick-next {
+  background: url(../images/arrow-right.png) no-repeat center center;
+  background-size: 40%;
+}
+/* line 46, ../sass/our-members.scss */
+.our-members .slick__arrow .slick-next::before {
+  content: "";
+}

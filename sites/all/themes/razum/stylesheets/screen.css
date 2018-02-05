@@ -233,181 +233,8 @@ p {
   padding: 0;
 }
 
-/** --Our Mission-- */
-/* line 173, ../sass/screen.scss */
-.our-mission {
-  padding-top: 1.1111rem;
-  margin: 0 4.4444rem;
-}
-/* line 177, ../sass/screen.scss */
-.our-mission .view-header {
-  text-align: center;
-}
-/* line 180, ../sass/screen.scss */
-.our-mission .bottom-description {
-  letter-spacing: -0.009rem;
-  font-size: 1.0625rem;
-  margin-top: 1.625rem;
-  font-family: "MuseoSans";
-  font-weight: 500;
-}
-/* line 187, ../sass/screen.scss */
-.our-mission .view-content {
-  margin-top: 2.7778rem;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2.875rem;
-  padding-bottom: 2.875rem;
-  border-bottom: 0.07778rem rgba(217, 218, 221, 0.72) solid;
-}
-/* line 195, ../sass/screen.scss */
-.our-mission .view-content .views-row {
-  float: left;
-  width: 30%;
-  text-align: center;
-  padding: 0 1.25rem 1.8125rem;
-  background: #fff;
-}
-/* line 202, ../sass/screen.scss */
-.our-mission .view-content .views-row .mission-image {
-  border-radius: 50%;
-  border-width: .625rem;
-  height: auto;
-  margin-top: -3.125rem;
-  width: 4.4445rem;
-  border-color: #fff;
-  border-style: solid;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 213, ../sass/screen.scss */
-.our-mission .view-content .views-row .views-field-title {
-  margin-top: .375rem;
-  margin-bottom: .875rem;
-  color: #61c0bd;
-  font-weight: 700;
-}
-/* line 219, ../sass/screen.scss */
-.our-mission .view-content .views-row .field-content {
-  line-height: 1.4375rem;
-  letter-spacing: -0.009rem;
-}
-/* line 224, ../sass/screen.scss */
-.our-mission .view-content .views-row-2 {
-  margin: 0 1.9rem;
-}
-
-/* line 230, ../sass/screen.scss */
-.members {
-  background: #f2f2f2;
-  padding-top: 2.2222rem;
-  padding-bottom: 2.2222rem;
-}
-
-/** --Our Members-- */
-/* line 238, ../sass/screen.scss */
-.our-members .slick-list {
-  margin: 2.2222rem 0;
-}
-/* line 241, ../sass/screen.scss */
-.our-members .slick-list .slick__slide {
-  height: 5rem;
-  position: relative;
-}
-/* line 245, ../sass/screen.scss */
-.our-members .slick-list .slick__slide img {
-  max-width: 9rem;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
-  max-height: 100%;
-  position: absolute;
-  top: 2.51111rem;
-  width: auto;
-}
-/* line 260, ../sass/screen.scss */
-.our-members .slick__arrow .slick-prev {
-  background: url(../images/arrow-left.png) no-repeat center center;
-  background-size: 40%;
-}
-/* line 264, ../sass/screen.scss */
-.our-members .slick__arrow .slick-prev::before {
-  content: "";
-}
-/* line 268, ../sass/screen.scss */
-.our-members .slick__arrow .slick-next {
-  background: url(../images/arrow-right.png) no-repeat center center;
-  background-size: 40%;
-}
-/* line 272, ../sass/screen.scss */
-.our-members .slick__arrow .slick-next::before {
-  content: "";
-}
-
-/** --Blog--*/
-/* line 279, ../sass/screen.scss */
-.blog-front {
-  margin-top: 1.7555rem;
-  margin-bottom: 2.2222rem;
-}
-/* line 282, ../sass/screen.scss */
-.blog-front .slide__grid {
-  margin: 0 20px;
-}
-/* line 285, ../sass/screen.scss */
-.blog-front .slide__grid .views-field-title {
-  font-weight: 700;
-  margin-top: 1.1111rem;
-  margin-bottom: 0.5555rem;
-}
-/* line 289, ../sass/screen.scss */
-.blog-front .slide__grid .views-field-title a {
-  color: #61c0bd;
-  text-decoration: none;
-}
-/* line 294, ../sass/screen.scss */
-.blog-front .slide__grid .views-field-body {
-  padding: 1.1111rem 0;
-  line-height: 1.4375rem;
-  text-align: justify;
-  min-height: 15rem;
-  border-top: 0.05rem rgba(217, 218, 221, 0.51) solid;
-  border-bottom: 0.05rem rgba(217, 218, 221, 0.51) solid;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-/* line 304, ../sass/screen.scss */
-.blog-front .slide__grid .views-field-field-date {
-  margin-top: 1.3888rem;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-/* line 311, ../sass/screen.scss */
-.blog-front .slick--view--blog .slick-list {
-  margin: 0 2rem;
-}
-/* line 315, ../sass/screen.scss */
-.blog-front .slick--view--blog .slick__arrow .slick-prev {
-  background: url("../images/arrow-left.png") no-repeat center center;
-  background-size: 40%;
-}
-/* line 319, ../sass/screen.scss */
-.blog-front .slick--view--blog .slick__arrow .slick-prev::before {
-  content: "";
-}
-/* line 324, ../sass/screen.scss */
-.blog-front .slick--view--blog .slick__arrow .slick-next {
-  background: url("../images/arrow-right.png") no-repeat center center;
-  background-size: 40%;
-}
-/* line 328, ../sass/screen.scss */
-.blog-front .slick--view--blog .slick__arrow .slick-next::before {
-  content: "";
-}
-
 /** --Footer-- */
-/* line 336, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .footer {
   padding-bottom: .9375rem;
   padding-top: 1.8125rem;
@@ -417,20 +244,20 @@ p {
   font-weight: 500;
   font-size: 0.95rem;
 }
-/* line 345, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .footer .copyright {
   margin: 1.75rem 4.22rem 0 4.22rem;
   padding-top: 1.3125rem;
   border-top: 1px solid #575656;
 }
-/* line 352, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .footer .social-icons .footer-icons {
   display: flex;
   justify-content: space-between;
   width: 90px;
   margin: 0 auto;
 }
-/* line 358, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .footer .social-icons .footer-icons .icon {
   height: 18px;
   height: 1.125rem;
@@ -440,20 +267,20 @@ p {
   background-size: cover;
   display: inline-block;
 }
-/* line 367, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .footer .social-icons .footer-icons .facebook {
   background-position: 9px center;
 }
-/* line 370, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .footer .social-icons .footer-icons .twitter {
   background-position: -28px center;
 }
-/* line 373, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .footer .social-icons .footer-icons .google {
   background-position: right center;
 }
 
-/* line 380, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .webform-confirmation {
   margin: 1.1111rem 0;
 }

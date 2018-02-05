@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+
+
+/** --Blog--*/
+.blog-front {
+  margin-top: 1.7555rem;
+  margin-bottom: 2.2222rem;
+  .slide__grid {
+    margin: 0 20px;
+
+    .views-field-title {
+      font-weight: 700;
+      margin-top: 1.1111rem;
+      margin-bottom: 0.5555rem;
+      a {
+        color: $link;
+        text-decoration: none;
+      }
+    }
+    .views-field-body {
+      padding: 1.1111rem 0;
+      line-height: 1.4375rem;
+      text-align: justify;
+      min-height: 15rem;
+      border-top: 0.05rem rgba(217, 218, 221, 0.51) solid;
+      border-bottom: 0.05rem rgba(217, 218, 221, 0.51) solid;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .views-field-field-date {
+      margin-top: 1.3888rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+  }
+  .slick--view--blog {
+    .slick-list {
+      margin: 0 2rem;
+    }
+    .slick__arrow {
+      .slick-prev {
+        background: url('../images/arrow-left.png') no-repeat center center;
+        background-size: 40%;
+
+        &::before {
+          content: "";
+        }
+      }
+
+      .slick-next {
+        background: url('../images/arrow-right.png') no-repeat center center;
+        background-size: 40%;
+
+        &::before {
+          content: "";
+        }
+      }
+    }
+  }
+}
