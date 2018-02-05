@@ -2,7 +2,7 @@
 
 @media (min-width: 1100px) {
   .content {
-    max-width: 100% !important;
+    max-width: 96% !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -45,12 +45,17 @@
 @media (max-width: 1025px) {
   .body-inner__main {
     .content {
-      padding: .5555rem;
+      padding: 1.1111rem;
     }
   }
 
   /** -- Front -- */
   .front {
+    .body-inner__main {
+      .content {
+        padding: .5555rem;
+      }
+    }
     .next-event {
       .views-field-body {
         width: 70%;
@@ -252,6 +257,4 @@
     }
   }
 }
-body {
-  color: $white;
-}
+

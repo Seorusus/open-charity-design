@@ -1,0 +1,64 @@
+@import "variables.scss";
+
+
+/** --Get Involved-- */
+
+.get-involved {
+  margin: 2.2222rem 0;
+
+  .view-get-involved {
+    margin-top: 40px;
+    margin-top: 2.2222rem;
+    .view-content {
+      display: flex;
+      justify-content: space-between;
+
+      .views-row {
+        float: left;
+        margin: 0 auto;
+        width: 30%;
+        text-align: center;
+
+        .views-field-title {
+          margin: 25px 0;
+        }
+        .views-field-field-image-inv {
+          width: 140px;
+          margin: 0 auto;
+
+          img {
+            height: 108px;
+            height: 6.75rem;
+            width: auto;
+          }
+        }
+        .views-field-body {
+          line-height: 1.5rem;
+          font-weight: 500;
+          font-size: .95rem;
+          letter-spacing: -0.009rem;
+        }
+        .link-to-content {
+          margin-top: 20px;
+
+          a {
+            width: 9rem;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            -ms-border-radius: 2px;
+            border-radius: 2px;
+            font-size: .875rem;
+            display: inline-block;
+            padding: 0.8rem 1.5rem .8rem;
+            color: $link;
+            border-style: solid;
+            border-width: 0.07778rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

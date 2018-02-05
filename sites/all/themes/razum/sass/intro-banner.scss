@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+
+/** --Intro Banner-- */
+
+.intro-banner {
+  padding-bottom: 5.1875rem;
+  padding-top: 3.625rem;
+  background: url(../images/hero.jpg) top no-repeat fixed;
+  background-size: cover;
+
+  .region-intro-banner {
+    margin-top: 110px;
+  }
+
+
+  .intro-block {
+    text-align: center;
+    color: $white;
+    text-shadow: 1px 0px 1px rgba(150, 150, 150, 0.73);
+
+    .intro-block__division {
+      font-size: 1.125rem;
+
+      .intro-title {
+        letter-spacing: -0.1rem;
+        font-size: 3.5rem;
+        color: $white;
+        font-weight: 300;
+      }
+      .first-paragraph {
+        line-height: 33px;
+        line-height: 2.0625rem;
+        margin-bottom: 1.3125rem;
+        max-width: 635px;
+        max-width: 39.6875rem;
+        padding-top: .1875rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .second-paragraph {
+        font-size: 15px;
+        font-size: .9375rem;
+        line-height: 24px;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+        max-width: 600px;
+        max-width: 37.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .third-paragraph {
+        font-size: 18px;
+        font-size: 1.125rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    }
+  }
+}

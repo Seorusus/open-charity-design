@@ -1,0 +1,59 @@
+/** --Intro Banner-- */
+/* line 6, ../sass/intro-banner.scss */
+.intro-banner {
+  padding-bottom: 5.1875rem;
+  padding-top: 3.625rem;
+  background: url(../images/hero.jpg) top no-repeat fixed;
+  background-size: cover;
+}
+/* line 12, ../sass/intro-banner.scss */
+.intro-banner .region-intro-banner {
+  margin-top: 110px;
+}
+/* line 17, ../sass/intro-banner.scss */
+.intro-banner .intro-block {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 0px 1px rgba(150, 150, 150, 0.73);
+}
+/* line 22, ../sass/intro-banner.scss */
+.intro-banner .intro-block .intro-block__division {
+  font-size: 1.125rem;
+}
+/* line 25, ../sass/intro-banner.scss */
+.intro-banner .intro-block .intro-block__division .intro-title {
+  letter-spacing: -0.1rem;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 300;
+}
+/* line 31, ../sass/intro-banner.scss */
+.intro-banner .intro-block .intro-block__division .first-paragraph {
+  line-height: 33px;
+  line-height: 2.0625rem;
+  margin-bottom: 1.3125rem;
+  max-width: 635px;
+  max-width: 39.6875rem;
+  padding-top: .1875rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 41, ../sass/intro-banner.scss */
+.intro-banner .intro-block .intro-block__division .second-paragraph {
+  font-size: 15px;
+  font-size: .9375rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 52, ../sass/intro-banner.scss */
+.intro-banner .intro-block .intro-block__division .third-paragraph {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-left: auto;
+  margin-right: auto;
+}

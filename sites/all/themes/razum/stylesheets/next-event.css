@@ -1,0 +1,62 @@
+/** --Next Event-- */
+/* line 4, ../sass/next-event.scss */
+.next-event-block {
+  background: #f2f2f2;
+}
+
+/* line 8, ../sass/next-event.scss */
+.next-event {
+  background: #f2f2f2;
+  padding: 30px 0 30px 50px;
+  font-weight: 700;
+  color: #575656;
+  line-height: 1.6rem;
+}
+/* line 15, ../sass/next-event.scss */
+.next-event .next-event__title {
+  color: #61c0bd;
+  font-weight: 700;
+  font-size: 1.1rem;
+  float: left;
+}
+/* line 21, ../sass/next-event.scss */
+.next-event .date-display-single {
+  float: left;
+  margin-left: 5px;
+}
+/* line 25, ../sass/next-event.scss */
+.next-event .views-field-field-time {
+  float: left;
+  margin-left: 10px;
+}
+/* line 29, ../sass/next-event.scss */
+.next-event .register {
+  float: right;
+  margin-right: 60px;
+  position: relative;
+  top: 15px;
+}
+/* line 35, ../sass/next-event.scss */
+.next-event .register a {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  font-size: .875rem;
+  display: inline-block;
+  padding: 0.5rem 1.5rem .5rem;
+  color: #fff;
+  border-style: solid;
+  border-width: 0.07778rem;
+  border-color: #61c0bd;
+  margin-top: -17px;
+  background-color: #61c0bd;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 53, ../sass/next-event.scss */
+.next-event .views-field-body {
+  clear: both;
+  font-weight: 500;
+  font-size: .95rem;
+}
