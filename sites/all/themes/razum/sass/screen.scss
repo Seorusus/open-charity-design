@@ -755,7 +755,7 @@ p {
 
 @media (min-width: 768px) {
   .content {
-    max-width: 670px;
+    //max-width: 670px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -912,6 +912,7 @@ p {
     .body-inner__header {
       .logo img {
         width: 100%;
+        margin-bottom: 15px;
       }
     }
   }

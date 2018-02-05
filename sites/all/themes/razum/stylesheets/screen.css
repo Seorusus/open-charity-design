@@ -806,7 +806,6 @@ p {
 @media (min-width: 768px) {
   /* line 757, ../sass/screen.scss */
   .content {
-    max-width: 670px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -927,24 +926,25 @@ p {
   /* line 913, ../sass/screen.scss */
   .body-inner .body-inner__header .logo img {
     width: 100%;
+    margin-bottom: 15px;
   }
 
-  /* line 920, ../sass/screen.scss */
+  /* line 921, ../sass/screen.scss */
   .get-involved .view-get-involved .view-content {
     display: block;
   }
-  /* line 923, ../sass/screen.scss */
+  /* line 924, ../sass/screen.scss */
   .get-involved .view-get-involved .view-content .views-row {
     float: none;
     margin-bottom: 50px;
     width: 100%;
   }
 
-  /* line 932, ../sass/screen.scss */
+  /* line 933, ../sass/screen.scss */
   .our-mission .view-content {
     display: block;
   }
-  /* line 935, ../sass/screen.scss */
+  /* line 936, ../sass/screen.scss */
   .our-mission .view-content .views-row {
     float: none;
     width: 90%;
@@ -952,11 +952,11 @@ p {
     margin-right: auto;
     margin-bottom: 65px;
   }
-  /* line 942, ../sass/screen.scss */
+  /* line 943, ../sass/screen.scss */
   .our-mission .view-content .views-row .views-field-field-image-mission {
     margin-bottom: -30px;
   }
-  /* line 945, ../sass/screen.scss */
+  /* line 946, ../sass/screen.scss */
   .our-mission .view-content .views-row .views-field-field-image-mission .mission-image {
     margin-top: 0;
     position: relative;
@@ -964,15 +964,15 @@ p {
   }
 }
 @media (max-width: 601px) {
-  /* line 957, ../sass/screen.scss */
+  /* line 958, ../sass/screen.scss */
   .next-event {
     padding-bottom: 6.1111rem;
   }
-  /* line 960, ../sass/screen.scss */
+  /* line 961, ../sass/screen.scss */
   .next-event .views-field-field-registration {
     width: 100px;
   }
-  /* line 963, ../sass/screen.scss */
+  /* line 964, ../sass/screen.scss */
   .next-event .views-field-field-registration .register {
     float: none;
     margin-right: 0;
@@ -981,7 +981,7 @@ p {
   }
 }
 @media (max-width: 415px) {
-  /* line 974, ../sass/screen.scss */
+  /* line 975, ../sass/screen.scss */
   .h1-title {
     font-size: 1.77rem;
     padding: .5555rem .5555rem .5555rem 1.9444rem;
