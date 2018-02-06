@@ -11,3 +11,5 @@ Slick slider was used for slider carouseles.
 SASS compilator was used for css compilation.
 
 Registration module was used for Registration functional.
+
+Any content can be changed from adminzone.
