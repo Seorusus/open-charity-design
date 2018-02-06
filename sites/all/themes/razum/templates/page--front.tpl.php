@@ -43,22 +43,13 @@
         <div id="messages" class="clear clearfix"><?php print $messages; ?></div>
       <?php endif; ?>
 
-<!--      --><?php //print render($title_prefix); ?>
-<!--      --><?php //if ($title): ?>
-<!--        <div class="h1-title"><h1>--><?php //print $title; ?><!--</h1></div>-->
-<!--      --><?php //endif; ?>
-<!--      --><?php //print render($title_suffix); ?>
-
-<!--      --><?php //if ($tabs = render($tabs)): ?>
-<!--        <div class="tabs">--><?php //print $tabs; ?><!--</div>-->
-<!--      --><?php //endif; ?>
-
       <?php if ($action_links): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-
+      <div id="mission">
       <?php echo render($page['content']); ?>
+      </div>
 <!-- Region Members -->
       <div class="members">
         <?php echo render($page['members']); ?>
