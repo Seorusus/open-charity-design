@@ -24,19 +24,28 @@
   float: left;
   margin-left: 5px;
 }
-/* line 25, ../sass/next-event.scss */
+/* line 26, ../sass/next-event.scss */
+.next-event .sup-up .date-display-single {
+  font-size: 12px;
+  display: block;
+  position: relative;
+  top: -2px;
+  left: -4px;
+  margin-right: -6px;
+}
+/* line 35, ../sass/next-event.scss */
 .next-event .views-field-field-time {
   float: left;
   margin-left: .5555rem;
 }
-/* line 29, ../sass/next-event.scss */
+/* line 39, ../sass/next-event.scss */
 .next-event .register {
   float: right;
   margin-right: 3.3333rem;
   position: relative;
   top: 0.8333rem;
 }
-/* line 35, ../sass/next-event.scss */
+/* line 45, ../sass/next-event.scss */
 .next-event .register a {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -54,7 +63,7 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 53, ../sass/next-event.scss */
+/* line 63, ../sass/next-event.scss */
 .next-event .views-field-body {
   clear: both;
   font-weight: 500;

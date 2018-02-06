@@ -22,6 +22,16 @@
     float: left;
     margin-left: 5px;
   }
+  .sup-up {
+    .date-display-single {
+      font-size: 12px;
+      display: block;
+      position: relative;
+      top: -2px;
+      left: -4px;
+      margin-right: -6px;
+    }
+  }
   .views-field-field-time {
     float: left;
     margin-left: .5555rem;
